@@ -1,6 +1,6 @@
 {
   "name": "hFPGA-vc707-xillybus-vivado20153",
-  "type": "shell"
+  "type": "shell",
   "version": "0.1.0",
   "summary": "This hFPGA shell includes xillybus PCIe module.",
   "description": "Developed in Computer Arch. Lab@Kumamoto University, Japan.",
