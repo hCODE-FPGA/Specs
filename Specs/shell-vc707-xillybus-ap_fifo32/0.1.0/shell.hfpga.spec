@@ -10,7 +10,7 @@
     "Qian ZHAO": "cho@arch.cs.kumamoto-u.ac.jp"
   },
   "source": {
-    "git": "https://github.com/hCODE-FPGA/hFPGA-vc707-xillybus-vivado20153.git",
+    "git": "https://github.com/jonsonxp/shell-vc707-xillybus-ap_fifo32-0.1.0.git",
     "tag": "0.1.0"
   },
   "platforms": {
