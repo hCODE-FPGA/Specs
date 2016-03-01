@@ -1,5 +1,5 @@
 {
-  "name": "test1",
+  "name": "test",
   "type": "ip",
   "version": "0.0.1",
   "summary": "A summary of test.",
