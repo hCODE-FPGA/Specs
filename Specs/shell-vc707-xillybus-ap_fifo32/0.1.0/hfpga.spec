@@ -14,7 +14,7 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "vc707": "all"
+    "vc707": "0.0.0"
   },
   "ides": {
     "version": "vivado2015.3",
