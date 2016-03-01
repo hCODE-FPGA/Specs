@@ -1,5 +1,5 @@
 {
-  "name": "shell-vc707-xillybus-vivado20153",
+  "name": "shell-vc707-xillybus-ap_fifo32",
   "type": "shell",
   "version": "0.1.0",
   "summary": "A hCODE shell based on xillybus-eval-vertex7-1.2c PCIe module.",
@@ -10,7 +10,7 @@
     "Qian ZHAO": "cho@arch.cs.kumamoto-u.ac.jp"
   },
   "source": {
-    "git": "https://github.com/jonsonxp/shell-vc707-xillybus-ap_fifo32-0.1.0.git",
+    "git": "https://github.com/jonsonxp/shell-vc707-xillybus-ap_fifo32.git",
     "tag": "0.1.0"
   },
   "platforms": {
