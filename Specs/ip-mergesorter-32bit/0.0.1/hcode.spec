@@ -17,7 +17,7 @@
     "vc707": "0.0.0"
   },
   "shells": {
-    "name": "shell-vc707-xillybus-ap_fifo32"
+    "shell-vc707-xillybus-ap_fifo32": true
   },
   "code": {
     "verilog": true, 
@@ -27,10 +27,10 @@
     "vivado_hls": true,
     "hls_generator": true
   },
-  "ides": {
-    "version": "vivado2015.3",
-    "version": "vivado2015.4"
-  },
+  "ides": [
+    {"vivado2015.3": true},
+    {"vivado2015.4": true}
+  ],
   "properties": {
     "max-clock": "250MHz",
     "host-fpga": {
