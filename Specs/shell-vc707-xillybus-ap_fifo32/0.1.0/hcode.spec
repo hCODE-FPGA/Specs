@@ -16,10 +16,10 @@
   "platforms": {
     "vc707": "0.0.0"
   },
-  "ides": {
-    "version": "vivado2015.3",
-    "version": "vivado2015.4"
-  },
+  "ides": [
+    {"vivado2015.3": true},
+    {"vivado2015.4": true}
+  ],
   "properties": {
     "max-clock": "250MHz",
     "host-fpga": {
