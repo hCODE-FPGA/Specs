@@ -10,7 +10,7 @@
     "Qian ZHAO": "cho@arch.cs.kumamoto-u.ac.jp"
   },
   "source": {
-    "git": "https://github.com/jonsonxp/ip-mergesorter-32bit",
+    "git": "https://github.com/jonsonxp/ip-mergesorter-32bit.git",
     "tag": "0.0.1"
   },
   "platforms": {
