@@ -2,22 +2,16 @@
   "name": "ip-mergesorter-32bit",
   "type": "ip",
   "version": "0.0.1",
-  "summary": "A merge sorter IP with 32-bit width ap_fifo interface implemented in Vivado HLS.",
+  "summary": "A mergesorter for 32bit integer numbers.",
   "description": "A merge sorter IP with 32-bit width ap_fifo interface implemented in Vivado HLS.",
-  "homepage": "https://github.com/jonsonxp/ip-mergesorter-32bit",
+  "homepage": "https://github.com/jonsonxp/ip-mergesorter-32bit/",
   "license": "MIT",
   "authors": {
-    "Qian ZHAO": "cho@arch.cs.kumamoto-u.ac.jp"
+    "jonsonxp": "ofmsmile@msn.com"
   },
   "source": {
     "git": "https://github.com/jonsonxp/ip-mergesorter-32bit.git",
     "tag": "0.0.1"
-  },
-  "platforms": {
-    "vc707": "0.0.0"
-  },
-  "shells": {
-    "name": "shell-vc707-xillybus-ap_fifo32"
   },
   "code": {
     "verilog": true, 
@@ -31,10 +25,21 @@
     "version": "vivado2015.3",
     "version": "vivado2015.4"
   },
-  "properties": {
-    "max-clock": "250MHz",
+  "platforms": {
+    "vc707": {
+      "shell": "shell-vc707-xillybus-ap_fifo32",
+      "size": 128,
+      "clk_period": 10
+    },
+    "zybo": {
+      "shell": "shell-zybo-xillybus-ap_fifo32",
+      "size": 32,
+      "clk_period": 5
+    }
+  },
+  "interfaces": {
     "host-fpga": {
-        "name": "xillybus-eval-virtex7-1.2c",
+        "name": "xillybus",
         "interface": {
             "protocol" : "ap-stream",
             "datawidth" : "32"
