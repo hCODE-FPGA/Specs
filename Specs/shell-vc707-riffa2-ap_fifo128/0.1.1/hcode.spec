@@ -25,6 +25,9 @@
     }
   },
   "compatible_shell": {
-    "shell-vc707-xillybus-ap_fifo128": "Shell driver not compatible."
+    "shell-vc707-xillybus-ap_fifo128": "Shell driver not compatible.",
+    "shell-vc707-xillybus-ap_fifo32": "Shell driver not compatible.",
+    "shell-zedboard-xillybus-ap_fifo32": "Shell driver not compatible.",
+    "shell-zybo-xillybus-ap_fifo32": "Shell driver not compatible."
   }
 }
