@@ -22,25 +22,32 @@
   },
   "shell": {
     "shell-vc707-riffa2-ap_fifo32": {
-      "device": "xc7vx485tffg1761-2",
       "data_width": 32,
+      "clk": 250,
+      "reference": " ip_loopback ip_loopback_0 (.ap_clk(ip_clk), .ap_rst(~ip_rst_n), .in_V_V_dout(in_r_dout), .in_V_V_empty_n(in_r_empty_n), .in_V_V_read(in_r_read), .out_V_V_din(out_r_din), .out_V_V_full_n(!out_r_full), .out_V_V_write(out_r_write));"
+    },
+    "shell-vc707-riffa2-ap_fifo128": {
+      "data_width": 128,
       "clk": 250,
       "reference": " ip_loopback ip_loopback_0 (.ap_clk(ip_clk), .ap_rst(~ip_rst_n), .in_V_V_dout(in_r_dout), .in_V_V_empty_n(in_r_empty_n), .in_V_V_read(in_r_read), .out_V_V_din(out_r_din), .out_V_V_full_n(!out_r_full), .out_V_V_write(out_r_write));"
     },
     "shell-vc707-xillybus-ap_fifo32": {
-      "device": "xc7vx485tffg1761-2",
       "data_width": 32,
       "clk": 250,
       "reference": " ip_loopback ip_loopback_0 (.ap_clk(ip_clk), .ap_rst(~ip_rst_n), .in_V_V_dout(in_r_dout), .in_V_V_empty_n(in_r_empty_n), .in_V_V_read(in_r_read), .out_V_V_din(out_r_din), .out_V_V_full_n(!out_r_full), .out_V_V_write(out_r_write));"
     },
+    "shell-vc707-xillybus-ap_fifo128": {
+      "data_width": 128,
+      "clk": 250,
+      "reference": " ip_loopback ip_loopback_0 (.ap_clk(ip_clk), .ap_rst(~ip_rst_n), .in_V_V_dout(in_r_dout), .in_V_V_empty_n(in_r_empty_n), .in_V_V_read(in_r_read), .out_V_V_din(out_r_din), .out_V_V_full_n(!out_r_full), .out_V_V_write(out_r_write));"
+    },
+
     "shell-zedboard-xillybus-ap_fifo32": {
-      "device": "xc7z020clg484-1",
       "data_width": 32,
       "clk": 200,
       "reference": " ip_loopback ip_loopback_0 (.ap_clk(ip_clk), .ap_rst(~ip_rst_n), .in_V_V_dout(in_r_dout), .in_V_V_empty_n(in_r_empty_n), .in_V_V_read(in_r_read), .out_V_V_din(out_r_din), .out_V_V_full_n(!out_r_full), .out_V_V_write(out_r_write));"
     },
     "shell-zybo-xillybus-ap_fifo32": {
-      "device": "xc7z010clg400-1",
       "data_width": 32,
       "clk": 200,
       "reference": " ip_loopback ip_loopback_0 (.ap_clk(ip_clk), .ap_rst(~ip_rst_n), .in_V_V_dout(in_r_dout), .in_V_V_empty_n(in_r_empty_n), .in_V_V_read(in_r_read), .out_V_V_din(out_r_din), .out_V_V_full_n(!out_r_full), .out_V_V_write(out_r_write));"
