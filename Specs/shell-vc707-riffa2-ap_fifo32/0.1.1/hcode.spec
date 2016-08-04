@@ -1,5 +1,5 @@
 {
-  "name": "shell-vc707-riffa2-ap_fifo128",
+  "name": "shell-vc707-riffa2-ap_fifo32",
   "type": "shell",
   "version": "0.1.1",
   "summary": "A hCODE shell based on RIFFA2.2.1 (VC707_Gen2x8If128) PCIe module.",
@@ -10,7 +10,7 @@
     "Qian ZHAO": "cho@arch.cs.kumamoto-u.ac.jp"
   },
   "source": {
-    "git": "https://github.com/jonsonxp/shell-vc707-riffa2-ap_fifo128.git",
+    "git": "https://github.com/jonsonxp/shell-vc707-riffa2-ap_fifo32.git",
     "tag": "0.1.1"
   },
   "hardware": {
@@ -20,11 +20,13 @@
   "interface": {
     "host": {
       "ap_fifo": {
-        "data_width": 128 
+        "data_width": 32
        }
     }
   },
   "compatible_shell": {
-    "shell-vc707-xillybus-ap_fifo128": "Shell driver not compatible."
+    "shell-vc707-xillybus-ap_fifo32": "Shell driver not compatible.",
+    "shell-zedboard-xillybus-ap_fifo32": "Shell driver not compatible.",
+    "shell-zybo-xillybus-ap_fifo32": "Shell driver not compatible."
   }
 }
