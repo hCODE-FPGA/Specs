@@ -10,7 +10,7 @@
     "Qian ZHAO": "cho@arch.cs.kumamoto-u.ac.jp"
   },
   "source": {
-    "git": "https://github.com/jonsonxp/shell-vc707-xillybus-ap_fifo32.git",
+    "git": "https://github.com/jonsonxp/shell-vc707-xillybus-ap_fifo128.git",
     "tag": "0.1.1"
   },
   "hardware": {
