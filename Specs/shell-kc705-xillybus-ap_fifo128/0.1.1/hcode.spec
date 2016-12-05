@@ -28,6 +28,6 @@
     }
   },
   "compatible_shell": {
-    "shell-vc707-xillybus-ap_fifo128": "Shell driver not compatible."
+    "shell-vc707-xillybus-ap_fifo128": "Interface compatible. Notice KC705 has less resources than VC707."
   }
 }
