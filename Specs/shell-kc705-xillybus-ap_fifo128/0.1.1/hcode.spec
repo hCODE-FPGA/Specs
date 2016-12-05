@@ -15,7 +15,7 @@
   },
   "hardware": {
   	"board": "kc705",
-    "device": "kc7k325tffg900-2"
+    "device": "xc7k325tffg900-2"
   },
   "interface": {
     "host": {
