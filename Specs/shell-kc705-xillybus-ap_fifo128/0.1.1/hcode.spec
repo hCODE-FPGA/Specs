@@ -26,5 +26,8 @@
         "data_width": 256
        } 
     }
+  },
+  "compatible_shell": {
+    "shell-vc707-xillybus-ap_fifo128": "Interface compatible. Notice KC705 has less resources than VC707."
   }
 }
