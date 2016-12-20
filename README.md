@@ -1,6 +1,6 @@
 # The hCODE Master Repo
 
-This repository contains the public [hCODE developtment kit](https://github.com/hCODE-FPGA/hdev) specifications.
+This repository contains the public [hCODE developtment kit](https://github.com/hCODE-FPGA/hCODE) specifications.
 
 ## License
 
