@@ -2,9 +2,9 @@
   "name": "shell-kc705-xillybus-ap_fifo128",
   "type": "shell",
   "version": "0.2.0",
-  "summary": "A hCODE shell based on xillybus-eval-kintex7-1.2d PCIe module.",
+  "summary": "A hCODE shell for KC705 board based on xillybus-eval-kintex7-2.0c PCIe module.",
   "description": "Developed in Computer Arch. Lab@Kumamoto University, Japan.",
-  "homepage": "https://github.com/jonsonxp/shell-kc705-xillybus-ap_fifo128",
+  "homepage": "http://arch.cs.kumamoto-u.ac.jp/hcode",
   "license": "MIT",
   "authors": {
     "Qian ZHAO": "cho@arch.cs.kumamoto-u.ac.jp"
@@ -14,7 +14,7 @@
     "tag": "0.2.0"
   },
   "hardware": {
-  	"board": "kc705",
+    "board": "kc705",
     "device": "xc7k325tffg900-2"
   },
   "interface": {
@@ -35,14 +35,11 @@
   },
   "resource": {
     "1": {
-        "LUT": 196955,
-        "LUTRAM": 62947,
-        "FF": 400713,
-        "BRAM": 427,
+        "LUT": 196869,
+        "LUTRAM": 62903,
+        "FF": 400734,
+        "BRAM": 430,
         "DSP": 840
     }
-  },
-  "compatible_shell": {
-    "shell-vc707-xillybus-ap_fifo128": "Interface compatible. Notice KC705 has less resources than VC707."
   }
 }
